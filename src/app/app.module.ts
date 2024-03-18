@@ -8,12 +8,10 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { AppComponent } from './app.component';
 
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { ClientesEditComponent } from './clientes-edit/clientes-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClientesEditComponent,
   ],
   imports: [
     BrowserModule,
